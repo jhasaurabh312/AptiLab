@@ -15,8 +15,8 @@ var db = firebase.database();
 
 var flag = 1;
 var count = 0;
-while(flag < 8){
-	const url = 'https://www.indiabix.com/aptitude/problems-on-trains/03800'+ flag;	    
+while(flag < 4){
+	const url = 'https://www.indiabix.com/aptitude/problems-on-numbers/00900'+ flag;	    
 	flag = flag + 1;
 
 	var axios = require('axios');
@@ -58,12 +58,12 @@ while(flag < 8){
 				Option_D : optD,
 			}
 
-			db.ref('/' + 'quantitative/practice/train-problem/' + count).set({Problem,Explanation});	
+			db.ref('/' + 'quantitative/practice/problems-on-numbers/' + count).set({Problem,Explanation});	
 			count = count + 1;
+
+			console.log(Problem);
 		});
 		
 		
 	}).catch(console.error);
 }
-
-console.log('SUCCESSFULLY DONE !!!')
