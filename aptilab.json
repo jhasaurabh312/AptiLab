@@ -1,0 +1,61 @@
+{
+    "Sample_Test" : {
+	    
+	    },
+    "Quantitative" : {
+	    "sampleTest" : {
+		      "QuesOne" : {
+				"A" : "1",
+				"B" : "2",
+				"C" : "3",
+				"D" : "4",
+				"ans" : "5"
+			      }
+	              }
+	    },
+    "Verbal" : {
+	    "sampleTest" : {
+		      "QuesOne" : {
+				"A" : "1",
+				"B" : "2",
+				"C" : "3",
+				"D" : "4",
+				"ans" : "5"
+			      }
+	              }
+	    },
+    "Logical" : {
+	    "sampleTest" : {
+		      "QuesOne" : {
+				"A" : "1",
+				"B" : "2",
+				"C" : "3",
+				"D" : "4",
+				"ans" : "5"
+			      }
+	              }
+	    },
+    "Programming" : {
+	    "sampleTest" : {
+		      "QuesOne" : {
+				"A" : "1",
+				"B" : "2",
+				"C" : "3",
+				"D" : "4",
+				"ans" : "5"
+			      }
+	              }
+	    },
+    "Combined_Test" : {
+	    "sampleTest" : {
+		      "QuesOne" : {
+				"A" : "1",
+				"B" : "2",
+				"C" : "3",
+				"D" : "4",
+				"ans" : "5"
+			      }
+	              }
+	    },
+    "User" : "0"
+}

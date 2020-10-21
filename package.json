@@ -1,0 +1,19 @@
+{
+  "name": "AptiLab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "firebase": "^7.24.0",
+    "firebase-admin": "^9.2.0",
+    "firebase-functions": "^3.11.0"
+  }
+}
